@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/title_color"
+    android:paddingTop="@dimen/dp_14"
+    android:paddingLeft="@dimen/dp_14"
+    android:paddingRight="@dimen/dp_14"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/tu_img"
+            android:layout_width="@dimen/dp_28"
+            android:layout_height="@dimen/dp_28"
+            android:background="@mipmap/tupian" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp_14"
+            android:id="@+id/wen_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="今天，我向你推出我们一部根据真实故事改编的剧情短片。 故事来自新世相读者分享的亲身经历。 这是后台100 多万个读者故事里，最让人意想不到的。"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dp_42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.motorbike.anqi.view.CircleImageView
+            android:id="@+id/head_iv"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@mipmap/sy_tx1" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLength="13"
+            android:text=""
+            android:textColor="#ffbbbbbb"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:background="#5b5858"
+        android:layout_height="1px" />
+</LinearLayout>

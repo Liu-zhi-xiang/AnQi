@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/popu_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@color/px_xian"
+        android:layout_height="1px" />
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:text="添加"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>

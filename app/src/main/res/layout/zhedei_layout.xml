@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/app_bar_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/white"-->
+        <!--android:fitsSystemWindows="true">-->
+
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:id="@+id/collapse_toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fitsSystemWindows="true"-->
+            <!--app:contentScrim="#FFFFFF"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:background="@color/hsbg"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingLeft="15dp"-->
+                    <!--android:paddingRight="15dp"-->
+                    <!--android:paddingTop="10dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/iv_back"-->
+                        <!--android:layout_width="25dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_gravity="bottom"-->
+                        <!--android:background="@mipmap/back"-->
+                        <!--android:focusable="true" />-->
+
+                    <!--<com.wbkj.artmss.Weight.SeachViewHs-->
+                        <!--android:id="@+id/et_seach"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="bottom"-->
+                        <!--android:layout_marginLeft="20dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@drawable/edit_common_yuanjiao"-->
+                        <!--android:imeOptions="actionSearch"-->
+                        <!--android:paddingBottom="5dp"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingTop="5dp"-->
+                        <!--android:textColorHint="@color/hint" />-->
+                <!--</LinearLayout>-->
+
+                <!--<com.wbkj.artmss.Weight.imgrollview.ImgRollViewHs-->
+                    <!--android:id="@+id/imageroll"-->
+                    <!--android:layout_width="-->
+        <!--match_parent"-->
+                    <!--android:layout_height="150dp" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="15dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:id="@+id/ll_tk"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:paddingLeft="20dp">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:background="@mipmap/hs_tk" />-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="20dp"-->
+                            <!--android:orientation="vertical">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/tuku"-->
+                                <!--android:textSize="18sp" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/tukut"-->
+                                <!--android:textColor="@color/hint"-->
+                                <!--android:textSize="13sp" />-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="1dp"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:background="@color/qline" />-->
+
+                    <!--<LinearLayout-->
+                        <!--android:id="@+id/ll_jc"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:paddingLeft="20dp">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:background="@mipmap/hs_jc" />-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="20dp"-->
+                            <!--android:orientation="vertical">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/jiaocheng"-->
+                                <!--android:textSize="18sp" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/jiaochengt"-->
+                                <!--android:textColor="@color/hint"-->
+                                <!--android:textSize="13sp" />-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:background="@color/hsbg" />-->
+            <!--</LinearLayout>-->
+
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:gravity="top"-->
+                <!--android:minHeight="?attr/actionBarSize"-->
+                <!--app:layout_collapseMode="pin"-->
+                <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />-->
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="65dp"-->
+            <!--android:weightSum="4">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:src="@mipmap/findhuashi" />-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_weight="3"-->
+                <!--android:gravity="center_vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_number"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:textColor="@color/hint"-->
+                    <!--android:textSize="13sp" />-->
+            <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="4.15">-->
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/recycler_view_city"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1">-->
+
+            <!--</android.support.v7.widget.RecyclerView>-->
+
+            <!--<com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView-->
+                <!--android:id="@+id/recycler_view_hs"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="3.15">-->
+
+            <!--</com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout>

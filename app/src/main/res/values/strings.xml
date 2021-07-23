@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">安骑</string>
+    <string name="meassage_hint">消息提示</string>
+    <string name="cancel">取消</string>
+    <string name="queding">确定</string>
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="loading_done">加载完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+
+
+    <string name="home">首页</string>
+    <string name="detection">检测</string>
+    <string name="journey">行程</string>
+    <string name="message">车友圈</string>
+    <string name="me">我的</string>
+
+
+    <string name="cp_select_city">选择城市</string>
+    <string name="cp_hot_city">热门城市</string>
+    <string name="cp_located_city">定位城市</string>
+    <string name="cp_hint_search_box">请输入城市名或拼音</string>
+    <string name="cp_nothing_found">没有搜索结果~</string>
+    <string name="cp_locating">正在定位…</string>
+    <string name="cp_located_failed">定位失败</string>
+    <string name="title_activity_voice_home">VoiceHomeActivity</string>
+    <string name="load_now">正在加载，请稍等。。。</string>
+    <!-- 多端在线类型 -->
+    <string name="on_line">在线</string>
+    <string name="on_line_pc">PC在线</string>
+    <string name="on_line_mac">Mac在线</string>
+    <string name="on_line_web">web在线</string>
+    <string name="client_aos">Android</string>
+    <string name="client_ios">iOS</string>
+    <string name="on_line_busy">忙碌</string>
+    <string name="off_line">离线</string>
+
+
+    <!-- 云信SDK所需文案 -->
+    <string name="nim_status_bar_multi_messages_incoming">%1$d位联系人有新消息</string>
+    <string name="nim_status_bar_ticker_text">%1$s有新消息</string>
+    <string name="nim_status_bar_image_message">%1$s发来一条图片消息</string>
+    <string name="nim_status_bar_audio_message">%1$s发来一条语音消息</string>
+    <string name="nim_status_bar_video_message">%1$s发来一条视频消息</string>
+    <string name="nim_status_bar_file_message">%1$s发来一条文件消息</string>
+    <string name="nim_status_bar_location_message">%1$s分享了一个地理位置</string>
+    <string name="nim_status_bar_notification_message">%1$s: 通知消息</string>
+    <string name="nim_status_bar_custom_message">%1$s: 自定义消息</string>
+    <string name="nim_status_bar_unsupported_message">%1$s: 无法显示该内容</string>
+    <string name="nim_status_bar_hidden_msg_content">你收到一条新消息</string>
+
+    <string-array name="action_mark">
+        <item>@drawable/am_0</item>
+        <item>@drawable/am_1</item>
+        <item>@drawable/am_2</item>
+        <item>@drawable/am_3</item>
+        <item>@drawable/am_4</item>
+        <item>@drawable/am_5</item>
+        <item>@drawable/am_6</item>
+        <item>@drawable/am_7</item>
+        <item>@drawable/am_8</item>
+        <item>@drawable/am_9</item>
+        <item>@drawable/am_10</item>
+        <item>@drawable/am_11</item>
+        <item>@drawable/am_12</item>
+        <item>@drawable/am_13</item>
+        <item>@drawable/am_14</item>
+        <item>@drawable/am_15</item>
+        <item>@drawable/am_16</item>
+        <item>@drawable/am_17</item>
+        <item>@drawable/am_18</item>
+        <item>@drawable/am_19</item>
+        <item>@drawable/am_20</item>
+        <item>@drawable/am_21</item>
+        <item>@drawable/am_22</item>
+        <item>@drawable/am_23</item>
+        <item>@drawable/am_24</item>
+        <item>@drawable/am_25</item>
+        <item>@drawable/am_26</item>
+        <item>@drawable/am_27</item>
+        <item>@drawable/am_28</item>
+        <item>@drawable/am_29</item>
+        <item>@drawable/am_30</item>
+        <item>@drawable/am_31</item>
+        <item>@drawable/am_32</item>
+        <item>@drawable/am_33</item>
+        <item>@drawable/am_34</item>
+        <item>@drawable/am_35</item>
+        <item>@drawable/am_36</item>
+        <item>@drawable/am_37</item>
+        <item>@drawable/am_38</item>
+        <item>@drawable/am_39</item>
+        <item>@drawable/am_40</item>
+        <item>@drawable/am_41</item>
+        <item>@drawable/am_42</item>
+        <item>@drawable/am_43</item>
+        <item>@drawable/am_44</item>
+        <item>@drawable/am_45</item>
+        <item>@drawable/am_46</item>
+        <item>@drawable/am_47</item>
+        <item>@drawable/am_48</item>
+        <item>@drawable/am_49</item>
+        <item>@drawable/am_50</item>
+        <item>@drawable/am_51</item>
+        <item>@drawable/am_52</item>
+        <item>@drawable/am_53</item>
+        <item>@drawable/am_54</item>
+        <item>@drawable/am_55</item>
+        <item>@drawable/am_56</item>
+        <item>@drawable/am_57</item>
+        <item>@drawable/am_58</item>
+        <item>@drawable/am_59</item>
+        <item>@drawable/am_60</item>
+        <item>@drawable/am_61</item>
+        <item>@drawable/am_62</item>
+        <item>@drawable/am_63</item>
+        <item>@drawable/am_64</item>
+        <item>@drawable/am_65</item>
+        <item>@drawable/am_66</item>
+        <item>@drawable/am_67</item>
+        <item>@drawable/am_68</item>
+        <item>@drawable/am_70</item>
+        <item>@drawable/am_71</item>
+        <item>@drawable/am_72</item>
+        <item>@drawable/am_73</item>
+        <item>@drawable/am_74</item>
+        <item>@drawable/am_75</item>
+        <item>@drawable/am_76</item>
+        <item>@drawable/am_77</item>
+        <item>@drawable/am_78</item>
+        <item>@drawable/am_79</item>
+        <item>@drawable/am_80</item>
+        <item>@drawable/am_81</item>
+        <item>@drawable/am_82</item>
+        <item>@drawable/am_83</item>
+        <item>@drawable/am_84</item>
+        <item>@drawable/am_85</item>
+        <item>@drawable/am_86</item>
+        <item>@drawable/am_87</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.motorbike.anqi"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [qqappid: "1106768065"]
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+    greendao {
+        /**
+         * 版本号
+         */
+        schemaVersion 1
+        /**
+         * greendao输出dao的数据库操作实体类文件夹（相对路径 包名+自定义路径名称，包将创建于包名的直接路径下）
+         */
+        daoPackage 'com.motorbike.anqi.greendao.gen'
+        /**
+         * greenDao实体类包文件夹
+         */
+        targetGenDir 'src/main/java'
+    }
+    allprojects {
+        repositories {
+            mavenCentral()
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api 'androidx.appcompat:appcompat:1.0.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'junit:junit:4.12'
+    api 'androidx.test:runner:1.1.0'
+    api 'androidx.test.espresso:espresso-core:3.1.0'
+//    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    api 'com.android.support.test:runner:1.0.1'
+    api 'com.android.support.test.espresso:espresso-core:3.0.1'
+    api 'androidx.multidex:multidex:2.0.1'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'com.lzy.net:okgo:3.0.4'
+    api 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    api 'com.squareup.picasso:picasso:2.5.2'
+    api 'com.google.android.material:material:1.0.0'
+    api 'junit:junit:4.12'
+    api 'com.zhihu.android:matisse:0.4.3'
+    api 'com.contrarywind:Android-PickerView:3.2.2'
+    api files('libs/core.jar')
+    api 'com.alibaba.android:vlayout:1.2.2@aar'
+    api 'com.umeng.sdk:common:1.5.1'
+    api 'com.umeng.sdk:share-core:6.9.2'
+    api 'com.umeng.sdk:share-qq:6.9.2.0'
+    api 'com.umeng.sdk:share-wechat:6.9.2'
+    api project(':IMKit')
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+
+    api 'org.greenrobot:greendao:3.2.2'
+    api 'org.greenrobot:greendao-generator:3.2.0'
+    api fileTree(include: '*.jar', dir: 'libs')
+    // 添加依赖。注意，版本号必须一致。
+    // 基础功能 (必需)
+    api 'com.netease.nimlib:basesdk:5.0.0'
+    // 音视频和互动白板服务需要
+    api 'com.netease.nimlib:nrtc:5.0.0'
+    // 音视频需要
+    api 'com.netease.nimlib:avchat:5.0.0'
+    // 聊天室需要
+    api 'com.netease.nimlib:chatroom:5.0.0'
+    // 互动白板服务需要
+    //    compile 'com.netease.nimlib:rts:5.0.0'
+    api files('libs/jcore-android-1.2.1.jar')
+    api files('libs/jpush-android-3.1.3.jar')
+    api 'com.clj.fastble:FastBleLib:2.3.2'
+}

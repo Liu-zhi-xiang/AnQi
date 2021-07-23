@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242424</color>
+    <color name="colorPrimaryDark">#1A1A1A</color>
+    <color name="colorAccent">#B4E317</color>
+    <color name="white">#ffffff</color>
+
+    <color name="activity_bg">#FAFAFA</color>
+    <color name="activity_bg_hui">#f6f6f6</color>
+    <color name="px_xian">#e5e5e5</color>
+
+
+
+    <color name="title_color">#242424</color>
+    <color name="title_color_an">#1A1A1A</color>
+    <color name="darkgrey">#c0c0c0</color>
+    <color name="home_but_text">#0ea11f</color>
+    <color name="home_but_text_an">#5b5858</color>
+    <color name="home_but_text_liang">#0fc524</color>
+
+
+    <color name="huixian_px">#313131</color>
+    <color name="HinttextColor">#999999</color>
+
+    <color name="background">#242424</color>
+    <color name="base_bg_yuan">#1A1A1A</color>
+    <color name="line">#313131</color>
+    <color name="edit_userInfo">#999999</color>
+    <color name="top_color">#B4E317</color>
+
+    <color name="main_color">#2196f3</color>
+    <color name="cp_colorAccent">#F3F3F3</color>
+    <color name="cp_colorPrimary">@color/cp_colorAccent</color>
+    <color name="cp_colorPrimaryDark">@color/cp_colorAccent</color>
+
+    <color name="cp_divider">#313131</color>
+    <color name="cp_shadow">#AAEBEBEB</color>
+    <color name="cp_common_bg">#FAFAFA</color>
+    <color name="cp_content_bg">@color/cp_colorAccent</color>
+    <color name="cp_gray">#8c8c8c</color>
+    <!--<color name="cp_gray_deep">#5c5c5c</color>-->
+    <color name="cp_gray_deep">#Fafafa</color>
+    <!--<color name="cp_alpha_gray">#CC646464</color>-->
+    <color name="cp_alpha_gray">#CC646464</color>
+    <!--<color name="cp_theme_gray">#646464</color>-->
+    <color name="cp_theme_gray">#ebebeb</color>
+
+    <color name="text_cocle">#B4E317</color>
+    <color name="firendsList">#BBBBBB</color>
+    
+    <color name="bk_an_px">#313131</color>
+    <color name="an_bg_hui_text">#999999</color>
+
+
+    <color name="color_network_bar_bg_ee4b62">#ee4b62</color>
+    <color name="color_grey_888888">#888888</color>
+    <color name="color_background">#888888</color>
+</resources>

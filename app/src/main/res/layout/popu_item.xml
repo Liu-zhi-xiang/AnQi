@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/title_color"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:id="@+id/popu_list_item"
+    android:lines="1"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:text="哈雷-定制版1200"
+    android:textColor="@color/white"
+    android:textSize="14sp" >
+
+</TextView>

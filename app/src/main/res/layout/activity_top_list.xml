@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_top_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/llOnly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="个人行程"
+                android:textColor="@color/top_color"
+                android:textSize="@dimen/size_sixteen" />
+
+            <ImageView
+                android:id="@+id/ivOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/lsxc_on"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="团队行程"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+
+            <ImageView
+                android:id="@+id/ivAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@mipmap/lsxc_on"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.motorbike.anqi.util.ScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.motorbike.anqi.util.ScrollViewPager>
+</LinearLayout>

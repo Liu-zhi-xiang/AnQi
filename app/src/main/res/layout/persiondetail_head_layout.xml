@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/baise_bg_yuan"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="霸道总裁"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/grxq_nan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="20"
+                    android:textColor="#ffbbbbbb"
+                    android:textSize="@dimen/size_fourteen" />
+
+                <TextView
+                    android:id="@+id/tvClassDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@mipmap/dengji_bg"
+                    android:gravity="center"
+                    android:text="lv1"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上海"
+                    android:textColor="#ffbbbbbb"
+                    android:textSize="@dimen/size_fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="雅马哈-Aerox WGP"
+                    android:textColor="#ffbbbbbb"
+                    android:textSize="@dimen/size_fourteen" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@mipmap/grxq_bt1"
+                    android:gravity="center"
+                    android:text="私信"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/grxq_bt2"
+                    android:gravity="center"
+                    android:text="已关注"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_fourteen" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/llKm"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvKm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:textSize="@dimen/size_seventeen"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="总里程 (km)"
+                        android:textSize="@dimen/size_twelve"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#999999"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#313131"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <LinearLayout
+                    android:id="@+id/llJiFen"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvJiFen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5000"
+                        android:textSize="@dimen/size_seventeen"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="积分"
+                        android:textSize="@dimen/size_twelve"
+                        android:textColor="#999999"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.motorbike.anqi.view.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="157dp"
+            android:background="@mipmap/image" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rout_remark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    android:background="@color/title_color"
+    tools:context="com.motorbike.anqi.activity.voice.RoutRemarkActivity">
+    <include layout="@layout/titile_ytu_layout"></include>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="14dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/an_layout_bg"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:minHeight="250dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/tvMeetContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingTop="2dp"
+                        android:maxLength="120"
+                        android:includeFontPadding="true"
+                        android:hint="请输入竞速备注事项"
+                        android:background="@null"
+                        android:textColorHint="@color/HinttextColor"
+                        android:textColor="@color/HinttextColor"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tishi_lent_text"
+                    android:layout_gravity="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="0/120"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/an_bg_hui_text"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="99dp"
+                android:id="@+id/queding_layout"
+                android:layout_width="match_parent"
+                android:background="@mipmap/xc_bt"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确定"
+                    android:textColor="@color/base_bg_yuan"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/title_color"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:statusBarScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            >
+           <include layout="@layout/cheyou_xq_hean"
+               app:layout_collapseMode="parallax"
+               app:layout_collapseParallaxMultiplier="0.7"
+               />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                >
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
+    <LinearLayout
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/baise_bg_yuan"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent">
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:id="@+id/tabLayout"-->
+            <!--style="@style/Base.Widget.Design.a.TabLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--app:layout_collapseMode="pin"-->
+            <!--app:tabContentStart="0dp"-->
+            <!--app:tabIndicatorColor="#B4E317"-->
+            <!--app:tabIndicatorHeight="2dp"-->
+            <!--app:tabMinWidth="60dp"-->
+            <!--app:tabSelectedTextColor="@color/colorAccent"-->
+            <!--app:tabTextColor="@color/white" />-->
+        <com.motorbike.anqi.view.indicator.MagicIndicator
+            android:layout_width="match_parent"
+            android:id="@+id/my_Indicator"
+            android:background="@android:color/transparent"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_height="50dp"></com.motorbike.anqi.view.indicator.MagicIndicator>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

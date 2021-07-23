@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/baise_bg_yuan"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.motorbike.anqi.view.CircleImageView
+                    android:id="@+id/headImage"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@mipmap/image" />
+
+                <TextView
+                    android:id="@+id/tvNickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="霸道总裁"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_sixteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上海"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_fourteen" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="2017/5/30"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_fourteen" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="车型"
+                android:textColor="#ff999999"
+                android:textSize="@dimen/size_sixteen" />
+
+            <TextView
+                android:id="@+id/tvCarType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="雅马哈-Aerox WGP"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="开始时间"
+                android:textColor="#ff999999"
+                android:textSize="@dimen/size_sixteen" />
+
+            <TextView
+                android:id="@+id/tvStartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:50"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="骑行时长"
+                android:textColor="#ff999999"
+                android:textSize="@dimen/size_sixteen" />
+
+            <TextView
+                android:id="@+id/tvAllTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02:10:10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="骑行里程"
+                android:textColor="#ff999999"
+                android:textSize="@dimen/size_sixteen" />
+
+            <TextView
+                android:id="@+id/tvKm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80km"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_sixteen" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/fenlei"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人数据"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_seventeen"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="极速"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:textSize="@dimen/size_fourteen"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="均速"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:textSize="@dimen/size_fourteen"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="百公里加速"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:textSize="@dimen/size_fourteen"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="压弯角度"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:textSize="@dimen/size_fourteen"/>
+    </LinearLayout>
+</LinearLayout>

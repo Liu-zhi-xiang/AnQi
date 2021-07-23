@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="61dp"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <com.motorbike.anqi.view.CircleImageView
+                    android:id="@+id/headImage"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size_sixteen"
+                    android:layout_marginLeft="15dp"
+                    android:text=""
+                    android:textColor="@color/firendsList"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/llYou"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/you"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+    </LinearLayout>
+</LinearLayout>

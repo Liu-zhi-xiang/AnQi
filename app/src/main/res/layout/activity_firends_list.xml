@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_firends_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+        <com.motorbike.anqi.view.SlideListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/slideListView">
+
+        </com.motorbike.anqi.view.SlideListView>
+
+    </LinearLayout>
+</LinearLayout>

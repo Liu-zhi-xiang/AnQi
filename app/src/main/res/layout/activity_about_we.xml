@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_we"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title" />
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"/>
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:background="@mipmap/gy_logo" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:text="V1.0"-->
+                <!--android:textColor="@color/top_color"-->
+                <!--android:textSize="@dimen/size_twenty" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:background="@drawable/baise_bg_yuan"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="15dp"-->
+                        <!--android:layout_height="15dp"-->
+                        <!--android:background="@mipmap/gy_fl" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:text="公司介绍"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/size_fifteen" />-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/line" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvCompany"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍"-->
+                    <!--android:textColor="@color/firendsList"-->
+                    <!--android:textSize="@dimen/size_fourteen" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/baise_bg_yuan"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="15dp"-->
+                        <!--android:layout_height="15dp"-->
+                        <!--android:background="@mipmap/gy_fl" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:text="总经理介绍"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/size_fifteen" />-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/line" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvZong"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍"-->
+                    <!--android:textColor="@color/firendsList"-->
+                    <!--android:textSize="@dimen/size_fourteen" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/baise_bg_yuan"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="15dp"-->
+                        <!--android:layout_height="15dp"-->
+                        <!--android:background="@mipmap/gy_fl" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:text="联系方式"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="@dimen/size_fifteen" />-->
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/line" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tvPhone"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text="公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍"-->
+                    <!--android:textColor="@color/firendsList"-->
+                    <!--android:textSize="@dimen/size_fourteen" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="********有限公司"-->
+                    <!--android:textColor="@color/firendsList"-->
+                    <!--android:textSize="@dimen/size_twelve"-->
+                    <!--android:gravity="center"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:text=" @2017 ****** Co.,Ltd."-->
+                    <!--android:textColor="@color/firendsList"-->
+                    <!--android:textSize="@dimen/size_twelve"-->
+                    <!--android:gravity="center"/>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>

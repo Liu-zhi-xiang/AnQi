@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.motorbike.anqi.view.bgabanner.BGAGuideLinkageLayout style="@style/MatchMall">
+
+            <com.motorbike.anqi.view.bgabanner.BGABanner
+                android:id="@+id/banner"
+                style="@style/MatchMall"
+                app:banner_pageChangeDuration="1000"
+                app:banner_pointAutoPlayAble="false"
+                app:banner_pointContainerBackground="@android:color/transparent"
+                app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
+                app:banner_pointLeftRightMargin="5dp"
+                app:banner_pointTopBottomMargin="15dp"
+                app:banner_transitionEffect="alpha" />
+        </com.motorbike.anqi.view.bgabanner.BGAGuideLinkageLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@color/title_color_an"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llIntegralRecord"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:background="@mipmap/jf_jf" />
+
+                <TextView
+                    android:id="@+id/tvJIfen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0积分"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_sixteen" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/llExchangeRecord"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:background="@mipmap/jf_jl" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="兑换记录"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_sixteen" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

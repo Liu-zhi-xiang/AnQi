@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorbike.anqi.view.RoundedImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:riv_corner_radius="@dimen/img_home_hudu"
+    app:riv_mutate_background="true"
+    android:id="@+id/bg_img"
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:maxHeight="200dp"
+    android:transitionName="myimg"
+    android:background="@mipmap/dt_bg"
+    android:layout_height="wrap_content" />

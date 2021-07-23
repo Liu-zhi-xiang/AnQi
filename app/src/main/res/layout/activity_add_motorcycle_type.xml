@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/title_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.motorbike.anqi.main.che.AddMotorcycleTypeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="match_parent">
+        <include layout="@layout/titile_ytu_layout"/>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/baise_bg_yuan"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@mipmap/fenlei"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="品牌"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/bk_an_px"/>
+            <LinearLayout
+                android:id="@+id/add_pinpai_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/add_chexing_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    android:id="@+id/pinpai_tv"
+                    android:textColor="#999999"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/xia_pinpai_imgview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@mipmap/xia" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/baise_bg_yuan"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@mipmap/fenlei"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="车型"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/bk_an_px"/>
+            <LinearLayout
+                android:id="@+id/add_chexing_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/add_chexing_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="请选择"
+                    android:id="@+id/chexing_tv"
+                    android:textColor="#999999"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/xia_chexing_imgview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@mipmap/xia" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如无选项可自填提交"
+            android:layout_margin="15dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff999999"
+            android:textSize="14dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/baise_bg_yuan"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@mipmap/fenlei"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="品牌"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/bk_an_px"/>
+            <LinearLayout
+                android:id="@+id/tj_pinpai_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/add_chexing_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:textColorHint="#999999"
+                    android:lines="1"
+                    android:maxLength="20"
+                    android:id="@+id/pinpaiEt"
+                    android:textColor="#999999"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/baise_bg_yuan"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@mipmap/fenlei"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="车型"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/bk_an_px"/>
+            <LinearLayout
+                android:id="@+id/tj_chexing_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/add_chexing_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入"
+                    android:background="@null"
+                    android:textColorHint="#999999"
+                    android:lines="1"
+                    android:maxLength="20"
+                    android:id="@+id/xinghaoEt"
+                    android:textColor="#999999"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/baise_bg_yuan"
+            android:layout_height="wrap_content">
+            <include layout="@layout/add_checing_recycle_head"/>
+        <com.motorbike.anqi.xrecyclerview.XRecyclerView
+            android:id="@+id/tianjia_recyclerview"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+        </com.motorbike.anqi.xrecyclerview.XRecyclerView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/queding_layout"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="@mipmap/xc_bt"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textColor="@color/base_bg_yuan"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

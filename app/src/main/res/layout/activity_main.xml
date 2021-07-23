@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.motorbike.anqi.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/mian_fragment_layout"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/indicator_two"
+        android:layout_width="match_parent"
+        android:background="#1A1A1A"
+        android:layout_height="@dimen/action_bar_hegit"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/home_layout"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/tab_home_img"
+                android:layout_width="wrap_content"
+                android:background="@mipmap/sy_in"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tab_home_text"
+                android:text="@string/home"
+                android:layout_width="wrap_content"
+                android:textColor="@color/home_but_text"
+                android:textSize="@dimen/home_but_text"
+                android:layout_marginTop="@dimen/but_text_panding"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/journey_layout"
+            >
+            <ImageView
+                android:id="@+id/tab_journey_img"
+                android:layout_width="wrap_content"
+                android:background="@mipmap/cyq_out"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tab_journey_text"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/home_but_text"
+                android:text="@string/journey"
+                android:layout_marginTop="@dimen/but_text_panding"
+                android:textColor="@color/home_but_text_an"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/message_layout"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/tab_message_img"
+                    android:layout_width="wrap_content"
+                    android:background="@mipmap/xc_out"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tab_message_text"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/home_but_text"
+                    android:text="@string/message"
+                    android:layout_marginTop="@dimen/but_text_panding"
+                    android:textColor="@color/home_but_text_an"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/me_layout"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/tab_me_img"
+                android:layout_width="wrap_content"
+                android:background="@mipmap/wd_out"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tab_me_text"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/home_but_text"
+                android:text="@string/me"
+                android:layout_marginTop="@dimen/but_text_panding"
+                android:textColor="@color/home_but_text_an"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
